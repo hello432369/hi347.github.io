@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hi347.com</id>
-    <title>hi347</title>
-    <updated>2019-05-30T02:19:18.492Z</updated>
+    <title>hi347杂货铺</title>
+    <updated>2019-06-03T02:13:42.687Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hi347.com"/>
     <link rel="self" href="https://hi347.com/atom.xml"/>
-    <subtitle>浓缩精华</subtitle>
+    <subtitle>众里寻他千百度。蓦然回首，那人却在，灯火阑珊处</subtitle>
     <logo>https://hi347.com/images/avatar.png</logo>
     <icon>https://hi347.com/favicon.ico</icon>
-    <rights>All rights reserved 2019, hi347</rights>
+    <rights>All rights reserved 2019, hi347杂货铺</rights>
     <entry>
         <title type="html"><![CDATA[凡人修仙传]]></title>
         <id>https://hi347.com/post/ce-shi-yi-xia</id>
