@@ -6,33 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>hi347杂货铺</title>
-    <script src="https://cdn.bootcss.com/p5.js/0.8.0/p5.min.js"></script>
-    <script src="https://cdn.bootcss.com/dat-gui/0.7.6/dat.gui.min.js"></script>
-    <script src="https://cdn.bootcss.com/p5.js/0.8.0/addons/p5.dom.min.js"></script>
-    <script language="javascript" type="text/javascript" src="test3.js"></script>
-
     <style>
-        canvas {
-            position: fixed;
-            top: 0;
-            left: 0;
-            z-index: -1;
+        body{
+            padding: 0; margin: 0;
         }
-
-        #contenu {
-            position: relative;
-            z-index: 2;
-            padding: 30px;
-            width:350px;
+        .top{
+            width:100%;height:64px; 
+            background:#000;
+            position:absolute;
+            z-index:999;
         }
-    </style>
+        .iframeCss{
+            position:relative;
+            width:100%;
+            height:3000px;
+            top:0px;
+            z-index: 0;
+            overflow: visible;
+        }  
+      </style>
 </head>
-
 <body>
-    <canvas></canvas>
-    <div id="contenu">
-        <p><h1><a href="https://www.yuque.com/hi347/fun" target="_blank" style="color:yellow; text-decoration:none;">< hi347.杂货铺 > 黑洞</a></h1> </p>
-    </div>
+<div class="top" ></div>
+<iframe class="iframeCss"
+    ref="iframe" 
+    src="https://www.yuque.com/hi347" 
+    width="100%" 
+    height="3000"
+    scrolling="no" 
+    frameBorder="0"
+    title="title">
+</iframe>
 </body>
-
 </html>
